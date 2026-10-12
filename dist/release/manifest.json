@@ -41,6 +41,10 @@
       "sizeBytes" : 5095906
     }
   ],
+  "desktopInstall" : {
+    "enabled" : true,
+    "url" : null
+  },
   "environment" : "production",
   "generatedAt" : "2026-10-05T12:59:22.094Z",
   "links" : {
