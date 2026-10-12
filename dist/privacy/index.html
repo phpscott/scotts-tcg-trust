@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="dark">
   <link rel="icon" href="/favicon.ico">
   <meta name="privacy-effective-date" content="September 20, 2026">
-  <meta name="privacy-last-updated" content="September 20, 2026">
+  <meta name="privacy-last-updated" content="October 12, 2026">
   <title>Privacy Policy — Scott’s TCG Binder</title>
   <link rel="canonical" href="https://trust.scottstcgbinder.com/privacy/">
   <!--
@@ -17,7 +17,7 @@
 
   PRIVACY_POLICY_DATES
   effective: September 20, 2026
-  updated: September 20, 2026
+  updated: October 12, 2026
 
   Public URL: https://trust.scottstcgbinder.com/privacy/
   -->
@@ -205,7 +205,7 @@
       <h1>Privacy Policy</h1>
       <p class="dates">
         <span><strong>Effective Date:</strong> <time id="effective-date" datetime="2026-09-20">September 20, 2026</time></span>
-        <span><strong>Last Updated:</strong> <time id="last-updated" datetime="2026-09-20">September 20, 2026</time></span>
+        <span><strong>Last Updated:</strong> <time id="last-updated" datetime="2026-10-12">October 12, 2026</time></span>
       </p>
     </header>
 
@@ -231,6 +231,7 @@
           <li><a href="#backups">Backups and Restore</a></li>
           <li><a href="#third-parties">Third-Party Services</a></li>
           <li><a href="#analytics">Analytics, Advertising, and Tracking</a></li>
+          <li><a href="#mac-installation">Mac Installation Record</a></li>
           <li><a href="#diagnostics">Diagnostics and Crash Information</a></li>
           <li><a href="#retention">Data Retention</a></li>
           <li><a href="#deletion">Your Data and Deletion</a></li>
@@ -257,6 +258,7 @@
           <li>Mac, iPhone, and iPad devices can synchronize catalog or collection data over your local network after you approve the connection.</li>
           <li>Catalog information, official card artwork, and pricing may be retrieved from third-party data providers.</li>
           <li>Scott’s TCG Binder does not operate its own user-account service.</li>
+          <li>When support registration is turned on, the Mac application can register one installation record. An email on that record is optional. iPhone and iPad do not send this record.</li>
         </ul>
       </section>
 
@@ -287,7 +289,7 @@
         <h3>Preferences and acknowledgements</h3>
         <p>Certain application preferences and acknowledgements may be stored locally on your device. This includes your acceptance of the End User License Agreement. That acknowledgement stays on the device that accepted it. It is not stored in the collection database and is not synchronized through iCloud or local-network collection sync.</p>
         <p>Optional eBay or PriceCharting credentials, if you enter them, are stored in the device Keychain. They are not placed in CloudKit or local-network collection sync.</p>
-        <p>This information remains on the device unless you use a feature that copies, synchronizes, exports, or backs it up.</p>
+        <p>This information remains on the device unless you use a feature that copies, synchronizes, exports, or backs it up. A Mac installation record is separate. When support registration is turned on, that record can leave the Mac, as described in <a href="#mac-installation">Mac Installation Record</a>.</p>
       </section>
 
       <section id="collection" aria-labelledby="collection-title">
@@ -411,17 +413,28 @@
         <p>We do not use third-party advertising or behavioral analytics SDKs.</p>
         <p>Scott’s TCG Binder does not display advertising. It does not sell personal information. It does not use advertising identifiers for cross-app or cross-website behavioral tracking. It does not include App Tracking Transparency tracking for advertising.</p>
         <p>The application includes on-device collection summaries and charts. Those screens use your local collection data so you can see your own inventory and value. They are not advertising analytics and are not sent to an analytics company.</p>
+        <p>Desktop install registration is not usage, session, or heartbeat telemetry. What that Mac record contains is described in <a href="#mac-installation">Mac Installation Record</a>.</p>
+      </section>
+
+      <section id="mac-installation" aria-labelledby="mac-installation-title">
+        <h2 id="mac-installation-title">12. Mac Installation Record</h2>
+        <p>The Mac application can register one installation record with Scott’s TCG Binder when support registration is turned on. iPhone and iPad do not send this record. It is declared for app functionality and not for tracking.</p>
+        <p>The record contains an installation identifier, the application version, the build number, the macOS version, and the country our host derives from the connection. That country is coarse location. If you save an email address, the record includes that address. The application also sends a secret that stays on the Mac and proves later requests belong to that installation. We store a hash of the secret. We do not store the secret, and we do not store the IP address in this database.</p>
+        <p>Continuing without an email still sends the installation record. Email is optional. It is required only if you want that installation to be eligible for direct support. Without an email, support is the documentation on our website. The address is not used for marketing.</p>
+        <p>The optional email address, the installation identifier, the country, the application version, the build number, and the macOS version are marked linked because the record can include the optional email.</p>
+        <p>The record does not include your collection, scans, photographs, notes, or CloudKit data. Removing the email keeps the installation record and ends direct support for it. Deleting the installation record in Settings removes that registration, including any email. The Mac does not register again unless you choose Register installation. Deleting the record does not change your collection.</p>
+        <p>We keep an installation record until you delete it, or until 24 months after it was created or its email was last changed, whichever comes first. That date is not a record of whether you opened the application. A Mac can remain in daily use and still reach that date if the email was not changed. You can ask us to delete a record from Settings → General → Support contact, or through the <a href="/support/">support page</a> if that Mac cannot reach the registration service. The installation id is shown in that settings section. The registration secret is not shown. Include the email on the record when you write to support.</p>
       </section>
 
       <section id="diagnostics" aria-labelledby="diagnostics-title">
-        <h2 id="diagnostics-title">12. Diagnostics and Crash Information</h2>
+        <h2 id="diagnostics-title">13. Diagnostics and Crash Information</h2>
         <p>The application writes diagnostic messages locally using the operating system’s logging facilities. Those logs stay on the device unless you export them or unless the operating system includes them in a report you choose to send.</p>
         <p>Scott’s TCG Binder does not include a third-party crash-reporting SDK such as Firebase Crashlytics or Sentry.</p>
         <p>If you install the application from the App Store or TestFlight, Apple may collect crash and diagnostic information according to your device settings and Apple’s policies. The application developer receives Apple crash reports only if Apple makes them available through App Store Connect and you have not disabled sharing. This policy does not claim that the developer automatically receives Apple diagnostic data.</p>
       </section>
 
       <section id="retention" aria-labelledby="retention-title">
-        <h2 id="retention-title">13. Data Retention</h2>
+        <h2 id="retention-title">14. Data Retention</h2>
         <p>Because Scott’s TCG Binder is local-first, retention is controlled mainly by your devices and by the features you use:</p>
         <ul>
           <li>Local collection data remains until you remove it, purge personal data, delete the application, or restore a different backup.</li>
@@ -431,12 +444,13 @@
           <li>Local-network copies remain on each device that received them until removed on that device.</li>
           <li>Backup files remain wherever you chose to store them.</li>
           <li>License acceptance and similar acknowledgements remain in device-local settings until the application data is removed or a later agreement requires a new acknowledgement.</li>
+          <li>A Mac installation record is kept until you delete it, or until 24 months after it was created or its email was last changed, whichever comes first. That date is not a record of whether you opened the application. A Mac can remain in daily use and still reach that date if the email was not changed.</li>
         </ul>
         <p>The developer does not operate a separate Scott’s TCG Binder account database of your collection.</p>
       </section>
 
       <section id="deletion" aria-labelledby="deletion-title">
-        <h2 id="deletion-title">14. Your Data and Deletion</h2>
+        <h2 id="deletion-title">15. Your Data and Deletion</h2>
         <p>You can remove information inside the application. There is not a single button labeled “Delete All My Data.” The available controls are:</p>
         <ul>
           <li><strong>Individual collection cards:</strong> edit or delete owned cards in Collection.</li>
@@ -449,12 +463,13 @@
           <li><strong>Local-network copies:</strong> after a purge, local collection sync is paused until you resume it. Delete or purge data on each device that still holds a copy.</li>
           <li><strong>Backups:</strong> delete backup folders or shared files in the location where you stored them. The application does not delete those files for you.</li>
           <li><strong>Entire local application data:</strong> delete the application, or remove the application’s data using the operating system.</li>
+          <li><strong>Mac installation record:</strong> in Settings → General → Support contact, Delete installation record removes that registration, including any email. The Mac does not register again unless you choose Register installation. Deleting the record does not change your collection. Removing the email keeps the installation record and ends direct support for it. If that Mac cannot reach the registration service, you can ask through the <a href="/support/">support page</a>. The installation id is shown in that settings section. The registration secret is not shown. Include the email on the record when you write to support.</li>
         </ul>
         <p>Purging personal collection data does not delete existing backup archives, official catalog metadata, or cached official artwork unless you clear or delete those separately.</p>
       </section>
 
       <section id="security" aria-labelledby="security-title">
-        <h2 id="security-title">15. Data Security</h2>
+        <h2 id="security-title">16. Data Security</h2>
         <p>Scott’s TCG Binder uses the protections provided by Apple platforms, including application sandboxing on iOS, iPadOS, and the sandboxed Mac application. The local SQLite database and images live inside the application’s container.</p>
         <p>External catalog, artwork, pricing, and competitive-data requests use HTTPS.</p>
         <p>Optional CloudKit synchronization uses Apple’s CloudKit service and the user’s Apple Account.</p>
@@ -463,33 +478,33 @@
       </section>
 
       <section id="children" aria-labelledby="children-title">
-        <h2 id="children-title">16. Children’s Privacy</h2>
-        <p>Scott’s TCG Binder is a trading-card collection utility. It does not include social networking, public profiles, advertising, or behavioral tracking. It does not ask for a child’s name, email address, or similar contact information in order to use the collection features.</p>
+        <h2 id="children-title">17. Children’s Privacy</h2>
+        <p>Scott’s TCG Binder is a trading-card collection utility. It does not include social networking, public profiles, advertising, or behavioral tracking. It does not ask for a child’s name, email address, or similar contact information in order to use the collection features. On Mac, an email on the installation record is optional. It is required only if you want that installation to be eligible for direct support.</p>
         <p>A parent or guardian can use the same on-device deletion, backup, and permission controls described in this policy. Camera, photo-library, local-network, and iCloud access are controlled by the operating system’s permission prompts.</p>
         <p>App Store age rating is configured separately in App Store Connect. This policy describes the application’s data practices rather than a legal age gate.</p>
       </section>
 
       <section id="international" aria-labelledby="international-title">
-        <h2 id="international-title">17. International Users</h2>
-        <p>Scott’s TCG Binder is a local-first application. The developer does not operate a centralized Scott’s TCG Binder service that stores your collection. Information that leaves the device does so through Apple services you enable, local-network connections you approve, backups or exports you create, or third-party catalog, artwork, pricing, and competitive-data requests described above.</p>
+        <h2 id="international-title">18. International Users</h2>
+        <p>Scott’s TCG Binder is a local-first application. The developer does not operate a centralized Scott’s TCG Binder service that stores your collection. Information that leaves the device does so through Apple services you enable, local-network connections you approve, backups or exports you create, third-party catalog, artwork, pricing, and competitive-data requests described above, or, on Mac, one installation record when support registration is turned on.</p>
         <p>If those third-party or Apple services process information in other countries, their policies apply to that processing. You can use the deletion and permission controls in this policy regardless of where you use the application.</p>
       </section>
 
       <section id="changes" aria-labelledby="changes-title">
-        <h2 id="changes-title">18. Changes to This Privacy Policy</h2>
+        <h2 id="changes-title">19. Changes to This Privacy Policy</h2>
         <p>This Privacy Policy will be updated when the application’s data practices change, including new network services, analytics, accounts, cloud synchronization, or personal-data handling. The Last Updated date at the top of this page will change when the policy changes.</p>
         <p>This Privacy Policy is published at <a href="https://trust.scottstcgbinder.com/privacy/">https://trust.scottstcgbinder.com/privacy/</a>.</p>
       </section>
 
       <section id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">19. Contact Us</h2>
+        <h2 id="contact-title">20. Contact Us</h2>
         <p>Privacy questions about Scott’s TCG Binder can be sent through the support page for this application:</p>
         <p><a href="https://trust.scottstcgbinder.com/support/">https://trust.scottstcgbinder.com/support/</a></p>
         <p>You may also use the support contact listed with Scott’s TCG Binder on the App Store.</p>
       </section>
 
       <section id="trademarks" aria-labelledby="trademarks-title">
-        <h2 id="trademarks-title">20. Pokémon and Third-Party Trademarks</h2>
+        <h2 id="trademarks-title">21. Pokémon and Third-Party Trademarks</h2>
         <p>Pokémon and related names and images are trademarks of their respective owners. Scott’s TCG Binder is an independent application and is not affiliated with, endorsed, sponsored, or approved by The Pokémon Company, Nintendo, Game Freak, or Creatures.</p>
         <p>TCGdex, Limitless TCG, eBay, PriceCharting, Apple, iCloud, CloudKit, and other product names are trademarks of their respective owners.</p>
       </section>
