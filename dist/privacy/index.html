@@ -420,10 +420,10 @@
         <h2 id="mac-installation-title">12. Mac Installation Record</h2>
         <p>The Mac application can register one installation record with Scott’s TCG Binder when support registration is turned on. iPhone and iPad do not send this record. It is declared for app functionality and not for tracking.</p>
         <p>The record contains an installation identifier, the application version, the build number, the macOS version, and the country our host derives from the connection. That country is coarse location. If you save an email address, the record includes that address. The application also sends a secret that stays on the Mac and proves later requests belong to that installation. We store a hash of the secret. We do not store the secret, and we do not store the IP address in this database.</p>
-        <p>Continuing without an email still sends the installation record. Email is optional. It is required only if you want that installation to be eligible for direct support. Without an email, support is the documentation on our website. The address is not used for marketing.</p>
+        <p>Continuing without an email still sends the installation record. Email is optional. It is required only if you want that installation to be eligible for direct support. Without an email on the record, support is the documentation on our website and <a href="mailto:support@scottstcgbinder.com">support@scottstcgbinder.com</a>. The address is not used for marketing.</p>
         <p>The optional email address, the installation identifier, the country, the application version, the build number, and the macOS version are marked linked because the record can include the optional email.</p>
         <p>The record does not include your collection, scans, photographs, notes, or CloudKit data. Removing the email keeps the installation record and ends direct support for it. Deleting the installation record in Settings removes that registration, including any email. The Mac does not register again unless you choose Register installation. Deleting the record does not change your collection.</p>
-        <p>We keep an installation record until you delete it, or until 24 months after it was created or its email was last changed, whichever comes first. That date is not a record of whether you opened the application. A Mac can remain in daily use and still reach that date if the email was not changed. You can ask us to delete a record from Settings → General → Support contact, or through the <a href="/support/">support page</a> if that Mac cannot reach the registration service. The installation id is shown in that settings section. The registration secret is not shown. Include the email on the record when you write to support.</p>
+        <p>We keep an installation record until you delete it, or until 24 months after it was created or its email was last changed, whichever comes first. That date is not a record of whether you opened the application. A Mac can remain in daily use and still reach that date if the email was not changed. You can delete a record from Settings → General → Support contact while that Mac still has the registration secret. If the Mac or the secret is unavailable, email <a href="mailto:privacy@scottstcgbinder.com">privacy@scottstcgbinder.com</a> and include the installation id and any email saved on the record. That message does not delete the record. The installation id is shown in that settings section. The registration secret is not shown.</p>
       </section>
 
       <section id="diagnostics" aria-labelledby="diagnostics-title">
@@ -463,7 +463,7 @@
           <li><strong>Local-network copies:</strong> after a purge, local collection sync is paused until you resume it. Delete or purge data on each device that still holds a copy.</li>
           <li><strong>Backups:</strong> delete backup folders or shared files in the location where you stored them. The application does not delete those files for you.</li>
           <li><strong>Entire local application data:</strong> delete the application, or remove the application’s data using the operating system.</li>
-          <li><strong>Mac installation record:</strong> in Settings → General → Support contact, Delete installation record removes that registration, including any email. The Mac does not register again unless you choose Register installation. Deleting the record does not change your collection. Removing the email keeps the installation record and ends direct support for it. If that Mac cannot reach the registration service, you can ask through the <a href="/support/">support page</a>. The installation id is shown in that settings section. The registration secret is not shown. Include the email on the record when you write to support.</li>
+          <li><strong>Mac installation record:</strong> in Settings → General → Support contact, Delete installation record removes that registration, including any email. The Mac does not register again unless you choose Register installation. Deleting the record does not change your collection. Removing the email keeps the installation record and ends direct support for it. If that Mac or its registration secret is unavailable, email <a href="mailto:privacy@scottstcgbinder.com">privacy@scottstcgbinder.com</a> and include the installation id and any email saved on the record. That message does not delete the record. The installation id is shown in that settings section. The registration secret is not shown.</li>
         </ul>
         <p>Purging personal collection data does not delete existing backup archives, official catalog metadata, or cached official artwork unless you clear or delete those separately.</p>
       </section>
@@ -498,9 +498,12 @@
 
       <section id="contact" aria-labelledby="contact-title">
         <h2 id="contact-title">20. Contact Us</h2>
-        <p>Privacy questions about Scott’s TCG Binder can be sent through the support page for this application:</p>
-        <p><a href="https://trust.scottstcgbinder.com/support/">https://trust.scottstcgbinder.com/support/</a></p>
-        <p>You may also use the support contact listed with Scott’s TCG Binder on the App Store.</p>
+        <p>Privacy questions, personal-data deletion requests, and requests to delete a Mac installation record:</p>
+        <p><a href="mailto:privacy@scottstcgbinder.com">privacy@scottstcgbinder.com</a></p>
+        <p>Sending email does not delete collection data, CloudKit data, or an installation record. Use the controls in <a href="#deletion">Your Data and Deletion</a>. We act on an email request only after we can verify it.</p>
+        <p>Product support:</p>
+        <p><a href="mailto:support@scottstcgbinder.com">support@scottstcgbinder.com</a></p>
+        <p>You can also use the <a href="/support/">support page</a> and the support contact listed with Scott’s TCG Binder on the App Store.</p>
       </section>
 
       <section id="trademarks" aria-labelledby="trademarks-title">
