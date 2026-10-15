@@ -42,7 +42,7 @@
     }
   ],
   "desktopInstall" : {
-    "enabled" : false,
+    "enabled" : true,
     "url" : "https://scotts-tcg-binder-desktop-install.scott-cliburn.workers.dev"
   },
   "environment" : "production",
