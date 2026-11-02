@@ -54,3 +54,5 @@ scotts-tcg-trust/
 | downloads@scottstcgbinder.com | `dist/support/index.html` only, for desktop distribution questions |
 
 The Mac download button lives in `scotts-tcg-docs`. The in-app copies of the privacy and support addresses are `ProductContact` in `scotts-tcg-app`. Change an address in all three repositories. HTML under `dist/` is the page source. Email does not delete collection, CloudKit, or installation records.
+
+Installation registration covers Mac, iPhone, and iPad. Each device keeps its own installation record. Automatic catalog updates do not require registration. Manual catalog release selection requires a verified email on that device.
